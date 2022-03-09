@@ -1,0 +1,20 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]  
+#root=7
+#Bir sonraki eleman 5, 7'den küçük olduğu için rootun solunda yer alır.
+#Bir sonraki eleman 1, 7'den küçüktür; 7'nin soluna bakarız; 1<5 olduğu için 5'in solunda yer alır.
+#Bir sonraki eleman 8, 7'den büyük olduğu için rootun sağında yer alır.
+#Bir sonraki eleman 3, 7'den küçüktür; 7'nin soluna bakarız 3<5; 5'in soluna bakarız 3>1 olduğu için 1'in sağında yer alır.
+#Bir sonraki eleman 6, 7'den küçüktür; 7'nin soluna bakarız; 6>5 olduğu için 5'in sağında yer alır.
+#Bir sonraki eleman 0, 7'den küçüktür; 7'nin soluna bakarız 0<5; 5'in soluna bakarız 0<1 olduğu için 1'in solunda yer alır.
+#Bir sonraki eleman 9, 7'den büyüktür; 7'nin sağına bakarız; 9>8 olduğu için 8'in sağında yer alır.
+#Bir sonraki eleman 4, 7'den küçüktür; 7'nin soluna bakarız 4<5; 5'in soluna bakarız 4>1; 1'in sağına bakarız 4>3 olduğu için 3'ün sağında yer alır.
+#Bir sonraki eleman 2, 7'den küçüktür; 7'nin soluna bakarız 2<5; 5'in soluna bakarız 2>1; 1'in sağına bakarız 2<3 olduğu için 3'ün solunda yer alır.
+          7                      
+         / \
+       5     8
+      / \     \
+     1   6     9
+    /\
+   0   3
+       /\
+      2  4
